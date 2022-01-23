@@ -1,0 +1,50 @@
+.statistics {
+    margin-bottom: 168px;
+    &__heading{
+        max-width: 255px;
+        width: 100%;
+        font-family: 'Fraunces';
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        color: #83888F;
+        margin-bottom: 72px;
+          
+    }
+
+    &__img{
+        margin-bottom: 46px;
+
+     
+    }
+    
+    &__list{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+   
+    
+    &__inner-heading{
+        max-width: 272px;
+        width: 100%;
+        font-family: 'Fraunces';
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 36px;
+        color: #333D4B;
+        margin-bottom: 24px;
+        
+    }
+    
+    &__text{
+        max-width: 285px;
+        width: 100%;
+        font-family: 'Barlow';
+        font-size: 16px;
+        line-height: 26px;
+        color: #333D4B;
+        
+    }
+}

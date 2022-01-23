@@ -1,0 +1,40 @@
+.quality{
+    margin-bottom: 168px;
+
+    &__container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #2C343E;
+        border-radius: 10px;
+        padding-left: 85px;
+        padding-right: 85px;
+        
+    }
+    
+    &__heading{
+        width: 517px;
+        font-family: 'Fraunces';
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 48px;
+        color: #FEFCF7;
+        padding-top: 100px;
+        
+    }
+    
+    &__text{
+        width: 540px;
+        font-family: "Barlow";
+        font-size: 16px;
+        line-height: 26px;
+        color: #FEFCF7;
+        opacity: 0.8;
+        padding-bottom: 146px;
+    }
+    
+    &__img{
+        object-fit: contain;
+        margin-top: -200px;
+    }
+}

@@ -1,0 +1,28 @@
+.commitment{
+      margin-bottom: 158px;
+    &__container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__heading {
+        width: 357px;
+        font-family: 'Fraunces';
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 48px;
+        color: #333D4B;
+        
+    }
+    
+    &__text{
+        width: 540px;
+        font-family: 'Barlow';
+        font-style: normal;
+        font-size: 16px;
+        line-height: 26px;
+        color: #333D4B;
+        opacity: 0.8;  
+    }
+}
